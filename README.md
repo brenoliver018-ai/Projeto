@@ -41,14 +41,14 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 ## 💻 Telas
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/projeto-mobile-dark.png" width="40%" height="300px">
-  <img alt="projeto DevLinks" src=".github/projeto-mobile-light.png" width="40%" height = "300px">
+  <img alt="projeto DevLinks" src="./assets/projeto-mobile-dark.png" width="40%" height="300px">
+  <img alt="projeto DevLinks" src="./assets/projeto-mobile-light.png" width="40%" height = "300px">
 </p>
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/projeto-desktop-dark.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/projeto-desktop-dark.png" width="100%">
 </p>
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/projeto-desktop-light.png" width="100%">
+  <img alt="projeto DevLinks" src="./assets/projeto-desktop-light.png" width="100%">
 </p>
 
 ## :memo: Licença

@@ -81,11 +81,15 @@ body * {
   bottom: 50%;
   left: 0;
   transition: all 0.3s ease;
+
+  animation: slide-out 0.5s;
+}
+#switch button:hover {
+  outline: 8px solid var(--bilau-color);
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 0.5s forwards;
 }
 
 #switch span {
@@ -163,5 +167,24 @@ footer {
 
   .light {
     --bg-url: url(./assets/bg-desktop-light1.jpg);
+  }
+}
+
+/* animations*/
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-out {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
   }
 }
